@@ -54,9 +54,9 @@ The development of this website is based on the official information sheet provi
 * **Iconography:** Linear, minimalist icons representing **"Fast Delivery,"** **"Secure Handling,"** and **"Nationwide Coverage"** to break up text-heavy sections.
 
 #### **Wireframes**
-* **Mobile Wireframes:** [Link to mobile designs]
-* **Tablet Wireframes:** [Link to tablet designs]
-* **Desktop Wireframes:** [Link to desktop designs]
+* **Mobile Wireframes:** ![Mobile Wireframe](assets/documentation/wireframes/mobile-design.png)
+* **Tablet Wireframes:** ![Tablet Wireframe](assets/documentation/wireframes/tablet-design.png)
+* **Desktop Wireframes:** ![Desktop Wireframe](assets/documentation/wireframes/desktop-design.png)
 
 ### 2. Information Architecture & Technical Implementation
 
@@ -99,6 +99,7 @@ In future updates, I plan to include:
 To build a robust platform for **CM Haulage LTD**, the following technologies were utilized:
 
 * **HTML5 & CSS3:** For semantic structure and custom styling.
+* **Figma** For wireframe designs in multiple sizes.
 * **[Bootstrap 5](https://getbootstrap.com/):** Used as the primary CSS framework for a responsive, mobile-first layout.
 * **[Font Awesome](https://fontawesome.com/):** For high-quality, scalable icons 
 * **[Google Fonts](https://fonts.google.com/):** To import the *Montserrat* and *Roboto* typefaces for a professional look.
