@@ -1,0 +1,48 @@
+/* Brand Variables */
+:root {
+    --navy: #1A2B48;
+    --yellow: #FDEE00;
+    --silver: #C0C0C2;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+h1, h2, h3, .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Custom Colors */
+.bg-navy { background-color: var(--navy) !important; }
+.text-navy { color: var(--navy) !important; }
+.text-yellow { color: var(--yellow) !important; }
+.bg-silver { background-color: var(--silver); }
+
+/* Buttons */
+.btn-yellow {
+    background-color: var(--yellow);
+    color: var(--navy);
+    font-weight: 700;
+    border: none;
+    transition: transform 0.2s ease;
+}
+
+.btn-yellow:hover {
+    background-color: #e6d900;
+    color: var(--navy);
+    transform: translateY(-2px);
+}
+
+/* Hero Section Styling */
+.hero-banner {
+    background: linear-gradient(rgba(26, 43, 72, 0.85), rgba(26, 43, 72, 0.85)), 
+                url('assets/images/hero-truck.jpg') no-content center/cover;
+    min-height: 80vh;
+}
+
+.tracking-wider {
+    letter-spacing: 2px;
+}
