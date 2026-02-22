@@ -176,6 +176,27 @@
                     </div>
                   </div>
                   <div class="row g-3 mb-4">
+    <div class="col-md-6">
+        <label class="form-label small fw-bold text-navy">Collection Date</label>
+        <div class="input-group">
+            <span class="input-group-text bg-white"><i class="fa-solid fa-calendar-check text-yellow"></i></span>
+            <input type="date" class="form-control" id="bookingDate" name="collection_date" required>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <label class="form-label small fw-bold text-navy">Preferred Collection Time</label>
+        <div class="input-group">
+            <span class="input-group-text bg-white"><i class="fa-solid fa-clock text-yellow"></i></span>
+            <select class="form-select" name="collection_time">
+                <option value="anytime">Anytime (04:00 - 20:00)</option>
+                <option value="morning">Morning (04:00 - 12:00)</option>
+                <option value="afternoon">Afternoon (12:00 - 20:00)</option>
+                <option value="overnight">Overnight / Timed (Specify in notes)</option>
+            </select>
+        </div>
+    </div>
+</div>
+                  <div class="row g-3 mb-4">
                     <div class="col-md-6">
                       <label class="form-label small fw-bold"
                         >Product Type</label
@@ -436,5 +457,13 @@
         }
       }
     </script>
+
+    <script>
+    // Prevent selecting past dates
+    const dateInput = document.getElementById('bookingDate');
+    const today = new Date().toISOString().split('T')[0];
+    dateInput.setAttribute('min', today);
+    dateInput.value = today; // Sets default date to today
+</script>
   </body>
 </html>
