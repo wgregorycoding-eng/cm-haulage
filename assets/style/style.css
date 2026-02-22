@@ -78,6 +78,37 @@ h1, h2, h3, .navbar-brand {
     letter-spacing: 2px;
 }
 
+/* Services Footer Banner Styling */
+.services-footer-banner {
+    height: 450px; 
+    width: 100%;
+}
+
+.banner-bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(26, 43, 72, 0.9) 0%, rgba(26, 43, 72, 0.4) 100%);
+    z-index: 2;
+}
+
+.banner-overlay .container {
+    z-index: 3;
+}
+
+
 /* Fleet Banner Styling */
 .fleet-banner-img {
     height: 550px; 
@@ -93,9 +124,75 @@ h1, h2, h3, .navbar-brand {
     max-width: 500px;
 }
 
+
+/* Custom Booking Form Styling */
+.form-control:focus {
+    border-color: var(--yellow);
+    box-shadow: 0 0 0 0.25rem rgba(253, 238, 0, 0.25);
+}
+
+.btn-navy {
+    background-color: #1a2b48;
+    transition: all 0.3s ease;
+}
+
+.btn-navy:hover {
+    background-color: #0d1a2f;
+    transform: translateY(-2px);
+    color: var(--yellow) !important;
+}
+
+.form-check-input:checked {
+    background-color: #1a2b48;
+    border-color: #1a2b48;
+}
+
+/* success page */
+.text-success {
+    color: #28a745 !important;
+}
+
+.btn-navy {
+    background-color: #1a2b48;
+    border: none;
+}
+
+.btn-navy:hover {
+    background-color: #0d1a2f;
+    color: #FDEE00;
+}
+
+/* Priority Toggle Styling */
+.border-danger {
+    border-color: #dc3545 !important;
+    border-width: 2px !important;
+}
+
+.form-check-input#priorityService:checked {
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+    box-shadow: 0 0 10px rgba(220, 53, 69, 0.5);
+}
+
+/* Subtle pulse animation for the icon */
+.fa-bolt {
+    animation: pulse-yellow 2s infinite;
+}
+
+@keyframes pulse-yellow {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.2); opacity: 0.8; color: #FDEE00; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
 /* Responsive adjustment for tablets/phones */
 @media (max-width: 768px) {
     .fleet-banner-img {
         height: 350px;
     }
-}
+
+    /* Mobile responsive height */
+@media (max-width: 768px) {
+    .services-footer-banner {
+        height: 350px;
+    }
