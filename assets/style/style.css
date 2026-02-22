@@ -38,10 +38,17 @@ h1, h2, h3, .navbar-brand {
 
 /* Hero Section Styling */
 .hero-banner {
-    background: linear-gradient(rgba(26, 43, 72, 0.85), rgba(26, 43, 72, 0.85)), 
-                url('assets/images/hero-truck.jpg') no-content center/cover;
+    background: linear-gradient(rgba(26, 43, 72, 0.75), rgba(26, 43, 72, 0.75)), 
+                url('assets/images/hero-banner.jpg') no-repeat center center; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     min-height: 80vh;
+    display: flex;
+    align-items: center;
+    color: white;
 }
+
 
 .tracking-wider {
     letter-spacing: 2px;
