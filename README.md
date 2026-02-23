@@ -96,7 +96,7 @@ In future updates, I plan to include:
 * **Automated Quoting Engine:** To provide instant pricing based on weight and distance.
 
 ### 3. Technologies Used
-To build a robust platform for **CM Haulage LTD**, the following technologies were utilized:
+To build a robust platform for **CM Haulage LTD**, the following technologies were used:
 
 * **HTML5 & CSS3:** For semantic structure and custom styling.
 * **Figma** For wireframe designs in multiple sizes.
@@ -110,10 +110,11 @@ To build a robust platform for **CM Haulage LTD**, the following technologies we
 To ensure a high-quality user experience and technical stability, the project underwent a rigorous testing phase using three primary methods:
 
 #### **Manual Testing**
-* **Navigation:** Verified that the persistent Bootstrap navigation menu functions correctly across all 5 pages.
-* **Forms:** Tested the Booking and Enquiry forms to ensure required fields prevent empty submissions and that the "Success Page" triggers correctly.
+* **Navigation:** Verified that the persistent Bootstrap navigation menu functions correctly across all 5 pages including success screen once form submitted.
+* **Forms:** Tested the Booking form to ensure required fields prevent empty submissions and that the "Success Page" triggers correctly.
 * **Link Integrity:** Checked all external links (Social Media) and internal buttons to ensure they point to the correct destinations.
-* **Responsiveness:** Manually inspected the site on multiple screen sizes (Mobile, Tablet, Desktop) using Chrome DevTools to ensure the grid layout remains professional.
+* **Responsiveness:** Manually inspected the site on multiple screen sizes and on my phone ipad and desktop. Using Chrome DevTools to ensure the grid layout remains correctly positioned and responds correctly.
+
 
 #### **Automated Testing**
 * **W3C HTML Validator:** All pages were processed through the [W3C Markup Validation Service](https://validator.w3.org/) to ensure semantic correctness and HTML5 compliance.
@@ -129,7 +130,7 @@ The project was deployed to GitHub Pages using the following steps:
 2.  Commit all HTML, CSS, and asset files.
 3.  Push the code to a public GitHub repository.
 4.  Navigate to **Settings > Pages** in the GitHub repository and select the `main` branch as the deployment source.
-5.  **Live Site Link:** [Insert GitHub Pages URL Here]
+5.  **Live Site Link:** https://wgregorycoding-eng.github.io/cm-haulage/
 
 ### 6. Credit
 * **Brand Assets:** Logo and professional website copy provided by **CM Haulage LTD**.

@@ -174,7 +174,7 @@ h1, h2, h3, .navbar-brand {
     box-shadow: 0 0 10px rgba(220, 53, 69, 0.5);
 }
 
-/* Subtle pulse animation for the icon */
+/* pulse animation for the icon */
 .fa-bolt {
     animation: pulse-yellow 2s infinite;
 }
@@ -186,13 +186,13 @@ h1, h2, h3, .navbar-brand {
 }
 
 /* Responsive adjustment for tablets/phones */
-@media (max-width: 768px) {
+@media (max-width: 768px) 
     .fleet-banner-img {
         height: 350px;
     }
 
     /* Mobile responsive height */
-@media (max-width: 768px) {
+@media (max-width: 768px) 
     .services-footer-banner {
         height: 350px;
     }
