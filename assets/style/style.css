@@ -186,13 +186,15 @@ h1, h2, h3, .navbar-brand {
 }
 
 /* Responsive adjustment for tablets/phones */
-@media (max-width: 768px) 
+@media (max-width: 768px) {
     .fleet-banner-img {
         height: 350px;
     }
+}
 
     /* Mobile responsive height */
-@media (max-width: 768px) 
+@media (max-width: 768px) {
     .services-footer-banner {
         height: 350px;
     }
+}
