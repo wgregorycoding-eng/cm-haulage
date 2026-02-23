@@ -179,10 +179,95 @@ After the user clicks the submit button with valid information, they are present
 #### **Automated Testing**
 * **W3C HTML Validator:** All pages were processed through the [W3C Markup Validation Service](https://validator.w3.org/) to ensure semantic correctness and HTML5 compliance.
 
+<details>
+<summary>Click to view Index Page Validation (Issues & Resolution)</summary>
+<br>
 
+**Initial Validation (Found Issues):**
+The screenshot below shows errors regarding skipped heading levels ($H1$ to $H4$), which were corrected by restructuring the tags.
+
+![HTML Index Issues](assets/images/Screenshots%20in%20testing/w3c-html-val/index/index-issues.png)
+
+**Resolved Validation:**
+After correcting the heading ladder and re-running the test, the document passed with no errors.
+
+![HTML Index Resolved](assets/images/Screenshots%20in%20testing/w3c-html-val/index/index-resolved.png)
+
+</details>
+
+<details>
+<summary>Click to view Services Page Validation (Issues & Resolution)</summary>
+<br>
+
+**Initial Validation (Found Issues):**
+The validator flagged heading hierarchy issues within the service cards.
+
+![Services Issues](assets/images/Screenshots%20in%20testing/w3c-html-val/services/services-issues.png)
+
+**Resolved Validation:**
+The tags were updated to follow a logical order, resulting in a clean validation report.
+
+![Services Resolved](assets/images/Screenshots%20in%20testing/w3c-html-val/services/services-resolved.png)
+
+</details>
+
+<details>
+<summary>Click to view Fleet Page Validation Proof</summary>
+<br>
+
+**Validation Result:**
+The Fleet page passed all checks with no errors or warnings, confirming full HTML5 compliance for the media-heavy content.
+
+![Fleet Page Validation Pass](assets/images/Screenshots%20in%20testing/w3c-html-val/fleet/fleet-no-issues.png)
+
+</details>
+
+<details>
+<summary>Click to view Booking Page Validation (Issues & Resolution)</summary>
+<br>
+
+**Initial Validation (Found Issues):**
+The validator identified heading level discrepancies and a stray closing tag within the form container.
+
+![Booking Issues](assets/images/Screenshots%20in%20testing/w3c-html-val/booking/booking-issues.png)
+
+**Resolved Validation:**
+Structural errors were corrected and the heading hierarchy was realigned, resulting in a successful pass.
+
+![Booking Resolved](assets/images/Screenshots%20in%20testing/w3c-html-val/booking/booking-resolved.png)
+
+</details>
+
+<details>
+<summary>Click to view Success Page Validation Proof</summary>
+<br>
+
+**Validation Result:**
+The Success page passed all checks with no errors or warnings, confirming that the user journey ends on a technically sound and valid document.
+
+![Success Page Validation Pass](assets/images/Screenshots%20in%20testing/w3c-html-val/success/success-no-issues.png)
+
+</details>
+<br>
 
 * **W3C CSS Validator:** The custom stylesheet was verified using the [CSS Validation Service](https://jigsaw.w3.org/css-validator/) to ensure no syntax errors were present in the branding implementation.
 
+<details>
+<summary>Click to view CSS Validation (Issues & Resolution)</summary>
+<br>
+
+**Initial Validation (Found Issues):**
+The initial check identified several syntax errors and vendor-prefix warnings in the custom branding CSS.
+
+![CSS Issues Found](assets/images/Screenshots%20in%20testing/w3c-css-val/css-issues-found.png)
+
+**Resolved Validation:**
+After cleaning up the code and removing redundant styles, the stylesheet passed with no errors.
+
+![CSS Issues Resolved](assets/images/Screenshots%20in%20testing/w3c-css-val/css-issues-resolved.png)
+
+</details>
+<br>
 
 * **Lighthouse:** Ran Google Lighthouse audits to optimize performance, accessibility, and SEO.
     * **Performance:** Checked image optimization for the Fleet Gallery.
