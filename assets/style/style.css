@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* Brand Variables */
 :root {
     --navy: #1A2B48;
@@ -27,13 +34,19 @@ h1, h2, h3, .navbar-brand {
     color: var(--navy);
     font-weight: 700;
     border: none;
+    -webkit-transition: -webkit-transform 0.2s ease;
+    transition: -webkit-transform 0.2s ease;
+    -o-transition: transform 0.2s ease;
     transition: transform 0.2s ease;
+    transition: transform 0.2s ease, -webkit-transform 0.2s ease;
 }
 
 .btn-yellow:hover {
     background-color: #e6d900;
     color: var(--navy);
-    transform: translateY(-2px);
+    -webkit-transform: translateY(-2px);
+        -ms-transform: translateY(-2px);
+            transform: translateY(-2px);
 }
 
 .hero-section {
@@ -47,7 +60,8 @@ h1, h2, h3, .navbar-brand {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* This makes it act like a background-image */
+    -o-object-fit: cover;
+       object-fit: cover; /* This makes it act like a background-image */
     z-index: 1;
 }
 
@@ -90,7 +104,8 @@ h1, h2, h3, .navbar-brand {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     z-index: 1;
 }
 
@@ -100,6 +115,8 @@ h1, h2, h3, .navbar-brand {
     left: 0;
     width: 100%;
     height: 100%;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(26, 43, 72, 0.9)), to(rgba(26, 43, 72, 0.4)));
+    background: -o-linear-gradient(left, rgba(26, 43, 72, 0.9) 0%, rgba(26, 43, 72, 0.4) 100%);
     background: linear-gradient(90deg, rgba(26, 43, 72, 0.9) 0%, rgba(26, 43, 72, 0.4) 100%);
     z-index: 2;
 }
@@ -112,7 +129,8 @@ h1, h2, h3, .navbar-brand {
 /* Fleet Banner Styling */
 .fleet-banner-img {
     height: 550px; 
-    object-fit: cover; 
+    -o-object-fit: cover; 
+       object-fit: cover; 
 }
 
 .bg-navy-overlay {
@@ -128,17 +146,22 @@ h1, h2, h3, .navbar-brand {
 /* Custom Booking Form Styling */
 .form-control:focus {
     border-color: var(--yellow);
-    box-shadow: 0 0 0 0.25rem rgba(253, 238, 0, 0.25);
+    -webkit-box-shadow: 0 0 0 0.25rem rgba(253, 238, 0, 0.25);
+            box-shadow: 0 0 0 0.25rem rgba(253, 238, 0, 0.25);
 }
 
 .btn-navy {
     background-color: #1a2b48;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 
 .btn-navy:hover {
     background-color: #0d1a2f;
-    transform: translateY(-2px);
+    -webkit-transform: translateY(-2px);
+        -ms-transform: translateY(-2px);
+            transform: translateY(-2px);
     color: var(--yellow) !important;
 }
 
@@ -171,18 +194,26 @@ h1, h2, h3, .navbar-brand {
 .form-check-input#priorityService:checked {
     background-color: #dc3545 !important;
     border-color: #dc3545 !important;
-    box-shadow: 0 0 10px rgba(220, 53, 69, 0.5);
+    -webkit-box-shadow: 0 0 10px rgba(220, 53, 69, 0.5);
+            box-shadow: 0 0 10px rgba(220, 53, 69, 0.5);
 }
 
 /* pulse animation for the icon */
 .fa-bolt {
-    animation: pulse-yellow 2s infinite;
+    -webkit-animation: pulse-yellow 2s infinite;
+            animation: pulse-yellow 2s infinite;
+}
+
+@-webkit-keyframes pulse-yellow {
+    0% { -webkit-transform: scale(1); transform: scale(1); opacity: 1; }
+    50% { -webkit-transform: scale(1.2); transform: scale(1.2); opacity: 0.8; color: #FDEE00; }
+    100% { -webkit-transform: scale(1); transform: scale(1); opacity: 1; }
 }
 
 @keyframes pulse-yellow {
-    0% { transform: scale(1); opacity: 1; }
-    50% { transform: scale(1.2); opacity: 0.8; color: #FDEE00; }
-    100% { transform: scale(1); opacity: 1; }
+    0% { -webkit-transform: scale(1); transform: scale(1); opacity: 1; }
+    50% { -webkit-transform: scale(1.2); transform: scale(1.2); opacity: 0.8; color: #FDEE00; }
+    100% { -webkit-transform: scale(1); transform: scale(1); opacity: 1; }
 }
 
 /* Responsive adjustment for tablets/phones */
