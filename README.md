@@ -105,6 +105,7 @@ To build a robust platform for **CM Haulage LTD**, the following technologies we
 * **[Google Fonts](https://fonts.google.com/):** To import the *Montserrat* and *Roboto* typefaces for a professional look.
 * **VS Code:** The primary Integrated Development Environment (IDE) used for coding.
 * **[Autoprefixer](https://autoprefixer.github.io/)** adds vendor prefixes
+* **[amiresponsive] (https://AmIResponsive.co.uk) Checks website is respinsive all at once.
 
 ### 4. Testing
 To ensure a high-quality user experience and technical stability, the project underwent a rigorous testing phase using three primary methods:
@@ -113,20 +114,96 @@ To ensure a high-quality user experience and technical stability, the project un
 * **Navigation:** Verified that the persistent Bootstrap navigation menu functions correctly across all 5 pages including success screen once form submitted.
 
 * **Forms:** Tested the Booking form to ensure required fields prevent empty submissions and that the "Success Page" triggers correctly.
-![alt text](<assets/images/Screenshots in testing/form-validation/empty-email.png>)![alt text](<assets/images/Screenshots in testing/form-validation/empty-name.png>)![alt text](<assets/images/Screenshots in testing/form-validation/success-page-proof.png>)
 
-* **Link Integrity:** Checked all external links (Social Media) and internal buttons to ensure they point to the correct destinations.![alt text](<assets/images/Screenshots in testing/responsive-test/social-media-link-test.png>)
+<details>
+<summary>Click to view Form Validation and Success Proof</summary>
+<br>
 
-* **Responsiveness:** Manually inspected the site on multiple screen sizes and on my phone ipad and desktop. Using Chrome DevTools to ensure the grid layout remains correctly positioned and responds correctly.![alt text](<assets/images/Screenshots in testing/responsive-test/index-respo.png>)![alt text](<assets/images/Screenshots in testing/responsive-test/services-respo.png>)![alt text](<assets/images/Screenshots in testing/responsive-test/fleet-respo.png>)![alt text](<assets/images/Screenshots in testing/responsive-test/booking-respo.png>)![alt text](<assets/images/Screenshots in testing/responsive-test/chrome-edge-comparison.png>)
+#### **Empty Field Validation (Name & Email)**
+These screenshots demonstrate that the `required` and `type="email"` attributes are functioning, preventing the user from submitting incomplete or incorrectly formatted data.
+
+![Empty Name Validation](assets/images/Screenshots%20in%20testing/form-validation/empty-name.png)
+![Empty Email Validation](assets/images/Screenshots%20in%20testing/form-validation/empty-email.png)
+
+#### **Successful Form Submission**
+Once all fields are valid, the user is correctly redirected to the success screen, confirming the form action is linked accurately.
+
+<details>
+<summary>Click to view Form Success Proof</summary>
+<br>
+
+
+#### **Successful Submission Redirect**
+After the user clicks the submit button with valid information, they are presented with this confirmation screen.
+
+![Success Page Proof](assets/images/Screenshots%20in%20testing/form-validation/success-page-proof.png)
+
+</details>
+
+</details>
+
+* **Link Integrity:** Checked all external links (Social Media) and internal buttons to ensure they point to the correct destinations.
+<details>
+<summary>Click to view Social Media Link Testing</summary>
+<br>
+
+#### **External Link Verification**
+![Social Media Link Test](assets/images/Screenshots%20in%20testing/responsive-test/social-media-link-test.png)
+
+</details>
+
+
+* **Responsiveness:** Manually inspected the site on multiple screen sizes and on my phone ipad and desktop. Using Chrome DevTools to ensure the grid layout remains correctly positioned and responds correctly.
+<details>
+<summary>Click to view Responsiveness and Browser Comparison Screenshots</summary>
+<br>
+
+#### **Home Page Responsiveness**
+![Home Page Responsive Check](assets/images/Screenshots%20in%20testing/responsive-test/index-respo.png)
+
+#### **Services Page Responsiveness**
+![Services Page Responsive Check](assets/images/Screenshots%20in%20testing/responsive-test/services-respo.png)
+
+#### **Fleet Page Responsiveness**
+![Fleet Page Responsive Check](assets/images/Screenshots%20in%20testing/responsive-test/fleet-respo.png)
+
+#### **Booking Page Responsiveness**
+![Booking Page Responsive Check](assets/images/Screenshots%20in%20testing/responsive-test/booking-respo.png)
+
+#### **Browser Compatibility (Chrome vs Edge)**
+![Chrome and Edge Comparison](assets/images/Screenshots%20in%20testing/responsive-test/chrome-edge-comparison.png)
+
+</details>
 
 
 #### **Automated Testing**
 * **W3C HTML Validator:** All pages were processed through the [W3C Markup Validation Service](https://validator.w3.org/) to ensure semantic correctness and HTML5 compliance.
+
+
+
 * **W3C CSS Validator:** The custom stylesheet was verified using the [CSS Validation Service](https://jigsaw.w3.org/css-validator/) to ensure no syntax errors were present in the branding implementation.
+
+
 * **Lighthouse:** Ran Google Lighthouse audits to optimize performance, accessibility, and SEO.
     * **Performance:** Checked image optimization for the Fleet Gallery.
     * **Accessibility:** Ensured high color contrast between the Navy (#1A2B48) and Yellow (#FDEE00) branding for readability.
+<details>
+<summary>Click to view Lighthouse Audit Reports</summary>
+<br>
 
+#### **Home Page**
+![Lighthouse Home Page Audit](assets/images/Screenshots%20in%20testing/Lighthouse/lh-index.png)
+
+#### **Services Page**
+![Lighthouse Services Page Audit](assets/images/Screenshots%20in%20testing/Lighthouse/lh-services.png)
+
+#### **Fleet Page**
+![Lighthouse Fleet Page Audit](assets/images/Screenshots%20in%20testing/Lighthouse/lh-fleet.png)
+
+#### **Booking Page**
+![Lighthouse Booking Page Audit](assets/images/Screenshots%20in%20testing/Lighthouse/lh-booking.png)
+
+</details>
 
 ### 5. Deployment
 The project was deployed to GitHub Pages using the following steps:
