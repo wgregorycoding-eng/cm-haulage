@@ -103,7 +103,7 @@ To build a robust platform for **CM Haulage LTD**, the following technologies we
 * **[Google Fonts](https://fonts.google.com/):** To import the *Montserrat* and *Roboto* typefaces for a professional look.
 * **VS Code:** The primary Integrated Development Environment (IDE) used for coding.
 * **[Autoprefixer](https://autoprefixer.github.io/)** adds vendor prefixes
-* **[amiresponsive] (https://AmIResponsive.co.uk) Checks website is respinsive all at once.
+* **[iamresponsive] (https://AmIResponsive.co.uk)** Checks website is respinsive all at once.
 
 ### 4. Testing
 To ensure a high-quality user experience and technical stability, the project underwent a rigorous testing phase using three primary methods:
@@ -302,6 +302,6 @@ The project was deployed to GitHub Pages using the following steps:
 * **Icons:** [Font Awesome](https://fontawesome.com/) for logistics and contact iconography.
 * **Fonts:** [Google Fonts](https://fonts.google.com/) for *Montserrat* and *Roboto*.
 * **Favicon:** Custom browser tab icon generated using Favicon.io based on the CM Haulage brand colors
-* **Custom Code:** All HTML5 structure and CSS3 styling (including the Navy and Yellow brand implementation) was written by **[William Gregory]**.
+* **Custom Code:** Custom UI design and brand implementation by **William Gregory**. Built with HTML5, CSS3, and Bootstrap..
 * **Content:** Website copy and project brief provided by **CM Haulage LTD**.
 * **Responsiveness:** Multi-device mockups generated via AmIResponsive.co.uk to ensure seamless viewing across desktop, tablet, and mobile.
