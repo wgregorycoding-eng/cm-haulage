@@ -111,9 +111,13 @@ To ensure a high-quality user experience and technical stability, the project un
 
 #### **Manual Testing**
 * **Navigation:** Verified that the persistent Bootstrap navigation menu functions correctly across all 5 pages including success screen once form submitted.
+
 * **Forms:** Tested the Booking form to ensure required fields prevent empty submissions and that the "Success Page" triggers correctly.
-* **Link Integrity:** Checked all external links (Social Media) and internal buttons to ensure they point to the correct destinations.
-* **Responsiveness:** Manually inspected the site on multiple screen sizes and on my phone ipad and desktop. Using Chrome DevTools to ensure the grid layout remains correctly positioned and responds correctly.
+![alt text](<assets/images/Screenshots in testing/form-validation/empty-email.png>)![alt text](<assets/images/Screenshots in testing/form-validation/empty-name.png>)![alt text](<assets/images/Screenshots in testing/form-validation/success-page-proof.png>)
+
+* **Link Integrity:** Checked all external links (Social Media) and internal buttons to ensure they point to the correct destinations.![alt text](<assets/images/Screenshots in testing/responsive-test/social-media-link-test.png>)
+
+* **Responsiveness:** Manually inspected the site on multiple screen sizes and on my phone ipad and desktop. Using Chrome DevTools to ensure the grid layout remains correctly positioned and responds correctly.![alt text](<assets/images/Screenshots in testing/responsive-test/index-respo.png>)![alt text](<assets/images/Screenshots in testing/responsive-test/services-respo.png>)![alt text](<assets/images/Screenshots in testing/responsive-test/fleet-respo.png>)![alt text](<assets/images/Screenshots in testing/responsive-test/booking-respo.png>)![alt text](<assets/images/Screenshots in testing/responsive-test/chrome-edge-comparison.png>)
 
 
 #### **Automated Testing**
