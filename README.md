@@ -137,5 +137,7 @@ The project was deployed to GitHub Pages using the following steps:
 * **Frameworks:** [Bootstrap 5](https://getbootstrap.com/) for layout and navigation.
 * **Icons:** [Font Awesome](https://fontawesome.com/) for logistics and contact iconography.
 * **Fonts:** [Google Fonts](https://fonts.google.com/) for *Montserrat* and *Roboto*.
+* **Favicon:** Custom browser tab icon generated using Favicon.io based on the CM Haulage brand colors
 * **Custom Code:** All HTML5 structure and CSS3 styling (including the Navy and Yellow brand implementation) was written by **[William Gregory]**.
 * **Content:** Website copy and project brief provided by **CM Haulage LTD**.
+* **Responsiveness:** Multi-device mockups generated via AmIResponsive.co.uk to ensure seamless viewing across desktop, tablet, and mobile.
