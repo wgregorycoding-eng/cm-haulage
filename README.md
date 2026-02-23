@@ -66,9 +66,9 @@ This project is a multi-page static front-end application built to satisfy all m
 1.  **Home Page:** Provides a high-level overview of CM Haulage Ltd as a Sheffield-based industry leader, introducing the core values of punctuality, communication, and care.
 2.  **Services Page:** A detailed catalog of logistics solutions, including General Haulage, Same Day Delivery, and Pallet Distribution for industries like construction and retail.
 3.  **Our Fleet Page:** Showcases the range of modern vehicles and emphasizes high maintenance standards and safety protocols.
-4.  **Booking & Enquiry Page:** A functional area featuring a structured **HTML5** form for lead generation and transparent pricing requests.
+4.  **Booking & Enquiry Page:** A functional area featuring a structured **HTML5** form for lead generation.
 5. **Success Page (Confirmation):**
-    * **Purpose:** Provides immediate feedback after a form submission.
+    * **Purpose:** Reassures the user that their inquiry has been successfully transmitted, reducing **'form-submission anxiety'** and setting clear expectations for follow-up.
     * **Content:** A "Thank You" message confirming the enquiry was received, a summary of expected response times (e.g., "We will contact you shortly"), and a button to return to the Home page.
 
 **Footer (On all pages):** Contact details, and **Social Media Links** (e.g., Facebook, X, Instgram) for brand transparency.
