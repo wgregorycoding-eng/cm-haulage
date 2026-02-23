@@ -54,9 +54,7 @@ The development of this website is based on the official information sheet provi
 * **Iconography:** Linear, minimalist icons representing **"Fast Delivery,"** **"Secure Handling,"** and **"Nationwide Coverage"** to break up text-heavy sections.
 
 #### **Wireframes**
-* **Mobile Wireframes:** ![Mobile Wireframe](assets/documentation/wireframes/mobile-design.png)
-* **Tablet Wireframes:** ![Tablet Wireframe](assets/documentation/wireframes/tablet-design.png)
-* **Desktop Wireframes:** ![Desktop Wireframe](assets/documentation/wireframes/desktop-design.png)
+![alt text](assets/images/wireframes/homepage-wireframe.png)![alt text](assets/images/wireframes/services-wireframe.png)![alt text](assets/images/wireframes/fleet-wireframe.png)![alt text](assets/images/wireframes/booking-form-wireframe.png)
 
 ### 2. Information Architecture & Technical Implementation
 
