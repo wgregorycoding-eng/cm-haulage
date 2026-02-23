@@ -21,7 +21,7 @@ The primary goal of the **CM Haulage LTD** website is to provide a seamless, pro
 
 The development of this website is based on the official information sheet provided by **CM Haulage LTD**. This document outlines the company’s core values, service specifications, and operational requirements.
 
-* **Project Brief:** [View Information Sheet](assets/CM_Haulage_Website_Info.docx)
+* **Project Brief:** [Information sheet ](assets/CM_Haulage_Website_Info.docx)
 * **Key Requirements derived from the sheet:**
     * Adherence to corporate branding (Navy/Yellow).
     * Integration of specific fleet details (HGVs and Vans).
@@ -38,7 +38,7 @@ The development of this website is based on the official information sheet provi
 
 #### **Design Choices**
 #### **Brand Identity**
-* **Official Logo:** The logo used in this project was provided by **CM Haulage LTD** to ensure brand consistency. It is stored in the `assets/images/![CM Haulage Logo](assets/images/VTOS3354.JPG) 
+* **Company Logo:** The logo used for colour choices in this project was provided by **CM Haulage LTD** to ensure brand consistency. ![CM Haulage logo optional](assets/images/logo.JPG) 
 
 #### **Color Scheme**
 * **Primary Navy (#1A2B48):** Used for headers and stability.
