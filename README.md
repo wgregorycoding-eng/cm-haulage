@@ -105,6 +105,36 @@ To build a robust platform for **CM Haulage LTD**, the following technologies we
 * **[Autoprefixer](https://autoprefixer.github.io/)** adds vendor prefixes
 * **[iamresponsive] (https://AmIResponsive.co.uk)** Checks website is respinsive all at once.
 
+
+
+### Development Life Cycle
+
+This project followed a structured development lifecycle (DLC) to ensure all **CM Haulage LTD** requirements were met with high technical standards and professional consistency.
+
+#### **A. Requirements & Planning**
+* **Analysis:** Reviewed the official company information sheet to identify core services (Pallet distribution, Multi-drop, Same-day) and brand values.
+* **User Stories:** Defined specific goals for "New Customers" and "Operations Managers" to guide the site's functionality.
+* **Information Architecture:** Mapped out a 5-page structure to ensure logical user flow and meet multi-page project requirements.
+
+#### **B. Design (Wireframing)**
+* **Prototyping:** Created low-fidelity wireframes in **Figma** for mobile, tablet, and desktop views to establish a responsive "stacking" logic.
+* **Branding:** Applied the Navy (`#1A2B48`) and Yellow (`#FDEE00`) color palette and typography (*Montserrat*/*Roboto*) to the UI design.
+
+#### **C. Implementation (Coding)**
+* **Framework Setup:** Initialized the project using **Bootstrap 5** for a mobile-first responsive grid.
+* **Custom Styling:** Wrote bespoke **CSS3** to override Bootstrap defaults and implement the specific CM Haulage industrial aesthetic.
+* **Semantic HTML:** Utilized HTML5 elements (`<header>`, `<nav>`, `<section>`, `<footer>`) for improved SEO and accessibility.
+
+#### **D. Testing & Validation**
+* **Quality Assurance:** Used a combination of manual link checking and automated tools (**W3C Validators** and **Lighthouse**).
+* **Iterative Fixes:** Adjusted padding and margins based on Lighthouse accessibility reports to ensure high color contrast and performance scores.
+
+#### **E. Deployment**
+* **Version Control:** Managed via **Git** for continuous integration, ensuring every major feature was captured in a descriptive commit.
+* **Live Hosting:** Deployed the final stable build to **GitHub Pages** for public accessibility.
+
+
+
 ### 4. Testing
 To ensure a high-quality user experience and technical stability, the project underwent a rigorous testing phase using three primary methods:
 
