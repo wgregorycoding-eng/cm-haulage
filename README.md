@@ -36,6 +36,72 @@ The development of this website is based on the official information sheet provi
 | **Operations Manager** | Find information on pallet distribution and multi-drop delivery services | I can coordinate complex logistics for my warehouse or distribution center efficiently. |
 | **Urgent Sender** | Identify Same Day and Next Day delivery options immediately | I can keep my business moving without delay by booking a fast-response courier from the Sheffield hub. |
 
+### 1.2 User Stories Evidence
+
+<details>
+<summary><b>New customer evidence: easy quote request navigation</b></summary>
+<br>
+
+**User Story Summary:** A New Customer needs to find a clear starting point for their inquiry. Their goal is to identify how to request a delivery service quickly and understand the basic process without having to navigate through multiple sub-pages.
+
+**Designer's Note:** I deliberately made the 'Request a Quote' buttons the most prominent feature on the page. By using high-contrast branding, I've ensured that new customers don't have to go hunting for a way to get in touch. This reduces friction right from the start, making it as easy as possible for a user to move from landing on the site to actually booking a delivery.
+
+![View Home Page Hero & Branding](assets/images/screenshots-in-testing/new-customer/quote-2.png)
+![View Call-to-Action (CTA) Design](assets/images/screenshots-in-testing/new-customer/quote-3.png)
+![View Navigation & Quick Links](assets/images/screenshots-in-testing/new-customer/quote-1.png)
+</details>
+
+<details>
+<summary><b>Business owner evidence: Fleet visibility</b></summary>
+<br>
+
+**User Story Summary:** A Business Owner needs to verify the company's vehicle capacity and equipment standards. Their goal is to visually confirm that the fleet is modern and diverse enough to handle their specific cargo—such as heavy construction materials or retail inventory—safely and professionally.
+
+**Designer's Note:** For the Business Owner user story, I focused on building professional credibility through strategic placement. I chose to feature high-quality, wide-angle imagery of the fleet because it immediately proves that CM Haulage has the physical capacity for heavy-duty logistics. By pairing these visuals with specific technical specs—like the 18-tonne rigid truck data—I’ve given the user the information they need to trust the company with their cargo before they even make contact.
+
+I also deliberately included the "Articulated Vehicles" call-out at the bottom. Even though the main gallery showcases the core fleet, adding this note shows that I’ve considered the requirements of high-volume clients who need larger vehicles. It transforms the page from a simple gallery into a comprehensive business solution that addresses a wider range of industry needs.
+
+![Business Owner Fleet Evidence](assets/images/screenshots-in-testing/business-owner/fleet-find.jpg)
+
+</details>
+
+<details>
+<summary><b>Returning client evidence: Access to contact details</b></summary>
+<br>
+
+**User Story Summary:** A Returning Client needs immediate access to communication channels. Their goal is to obtain quick updates on active deliveries or discuss ongoing contract work without having to search for contact information, ensuring their logistics operations remain punctual and well-coordinated.
+
+**Designer's Note:** For returning clients, I wanted to prioritize efficiency and ease of communication. I chose to implement these details as a **Global Footer**, meaning they appear at the bottom of every single page on the site.
+To make this evidence easy to follow, I have manually highlighted the contact blocks and social media integration in the screenshot below. By placing the phone, email, and Sheffield hub location—alongside direct links to **Facebook and LinkedIn**—in a consistent spot across the entire site, I’ve ensured that a regular client never has to "search" for a way to get in touch. Whether they need to call the office or check the latest updates on LinkedIn, the information is always exactly where they expect it to be.
+
+![Business Owner Fleet Evidence](assets/images/screenshots-in-testing/returning-client/contact-find.jpg)
+
+</details>
+
+<details>
+<summary><b>Operations manager evidence: pallet distribution & contract haulage services</b></summary>
+<br>
+
+**User Story Summary:** An Operations Manager needs to confirm that a haulage partner offers specific palletized shipping, urgent courier options, and long-term contract haulage to help them coordinate complex warehouse logistics efficiently.
+
+**Designer's Note:** For this section, I moved away from general branding and focused purely on service categories. I used a clean, three-column grid to highlight **Pallet Distribution**, **Same Day Courier**, and **Contract Haulage**. 
+
+By using simple icons and bold headers, I’ve made the page scannable so an Operations Manager can immediately identify the service they need. I also added a clear "Request a Quote" button right below these options; this creates a fast path for a busy professional to move from identifying a service to starting the booking process. It proves the site is designed for quick, functional use.
+
+![Operations Manager Evidence](assets/images/screenshots-in-testing/operations-manager/services-provided.png)
+</details>
+
+<details>
+<summary><b>Urgent Sender evidence: same-day priority booking</b></summary>
+<br>
+
+**User Story Summary:** An Urgent Sender needs to find immediate confirmation that Same Day or Next Day delivery is available. Their goal is to prevent business delays by quickly flagging a time-critical request directly within the quote system.
+
+**Designer's Note:** I included a dedicated **'Same Day Priority?'** toggle within the quote form so users can instantly flag urgent requests without needing to type out extra instructions. As shown by the red highlight in the evidence, this UI feature ensures the priority status is clear for both the user and the recieving team. This simplifies the booking process and helps speed up the response time for time-sensitive deliveries.
+
+![Urgent Sender Form Evidence](assets/images/screenshots-in-testing/urgent-sender/urgent-send.jpg)
+</details>
+
 #### **Design Choices**
 #### **Brand Identity**
 * **Company Logo:** The logo used for colour choices in this project was provided by **CM Haulage LTD** to ensure brand consistency. ![CM Haulage logo optional](assets/images/logo.JPG) 
@@ -150,8 +216,8 @@ To ensure a high-quality user experience and technical stability, the project un
 #### **Empty Field Validation (Name & Email)**
 These screenshots demonstrate that the `required` and `type="email"` attributes are functioning, preventing the user from submitting incomplete or incorrectly formatted data.
 
-![Empty Name Validation](assets/images/Screenshots%20in%20testing/form-validation/empty-name.png)
-![Empty Email Validation](assets/images/Screenshots%20in%20testing/form-validation/empty-email.png)
+![Empty Name Validation](assets/images/screenshots-in-testing/form-validation/empty-name.png)
+![Empty Email Validation](assets/images/screenshots-in-testing/form-validation/empty-email.png)
 
 #### **Successful Form Submission**
 Once all fields are valid, the user is correctly redirected to the success screen, confirming the form action is linked accurately.
@@ -164,7 +230,7 @@ Once all fields are valid, the user is correctly redirected to the success scree
 #### **Successful Submission Redirect**
 After the user clicks the submit button with valid information, they are presented with this confirmation screen.
 
-![Success Page Proof](assets/images/Screenshots%20in%20testing/form-validation/success-page-proof.png)
+![Success Page Proof](assets/images/screenshots-in-testing/form-validation/success-page-proof.png)
 
 </details>
 
@@ -176,7 +242,7 @@ After the user clicks the submit button with valid information, they are present
 <br>
 
 #### **External Link Verification**
-![Social Media Link Test](assets/images/Screenshots%20in%20testing/responsive-test/social-media-link-test.png)
+![Social Media Link Test](assets/images/screenshots-in-testing/responsive-test/social-media-link-test.png)
 
 </details>
 
@@ -187,19 +253,19 @@ After the user clicks the submit button with valid information, they are present
 <br>
 
 #### **Home Page Responsiveness**
-![Home Page Responsive Check](assets/images/Screenshots%20in%20testing/responsive-test/index-respo.png)
+![Home Page Responsive Check](assets/images/screenshots-in-testing/responsive-test/index-respo.png)
 
 #### **Services Page Responsiveness**
-![Services Page Responsive Check](assets/images/Screenshots%20in%20testing/responsive-test/services-respo.png)
+![Services Page Responsive Check](assets/images/screenshots-in-testing/responsive-test/services-respo.png)
 
 #### **Fleet Page Responsiveness**
-![Fleet Page Responsive Check](assets/images/Screenshots%20in%20testing/responsive-test/fleet-respo.png)
+![Fleet Page Responsive Check](assets/images/screenshots-in-testing/responsive-test/fleet-respo.png)
 
 #### **Booking Page Responsiveness**
-![Booking Page Responsive Check](assets/images/Screenshots%20in%20testing/responsive-test/booking-respo.png)
+![Booking Page Responsive Check](assets/images/screenshots-in-testing/responsive-test/booking-respo.png)
 
 #### **Browser Compatibility (Chrome vs Edge)**
-![Chrome and Edge Comparison](assets/images/Screenshots%20in%20testing/responsive-test/chrome-edge-comparison.png)
+![Chrome and Edge Comparison](assets/images/screenshots-in-testing/responsive-test/chrome-edge-comparison.png)
 
 </details>
 
@@ -214,12 +280,12 @@ After the user clicks the submit button with valid information, they are present
 **Initial Validation (Found Issues):**
 The screenshot below shows errors regarding skipped heading levels ($H1$ to $H4$), which were corrected by restructuring the tags.
 
-![HTML Index Issues](assets/images/Screenshots%20in%20testing/w3c-html-val/index/index-issues.png)
+![HTML Index Issues](assets/images/screenshots-in-testing/w3c-html-val/index/index-issues.png)
 
 **Resolved Validation:**
 After correcting the heading ladder and re-running the test, the document passed with no errors.
 
-![HTML Index Resolved](assets/images/Screenshots%20in%20testing/w3c-html-val/index/index-resolved.png)
+![HTML Index Resolved](assets/images/screenshots-in-testing/w3c-html-val/index/index-resolved.png)
 
 </details>
 
@@ -230,12 +296,12 @@ After correcting the heading ladder and re-running the test, the document passed
 **Initial Validation (Found Issues):**
 The validator flagged heading hierarchy issues within the service cards.
 
-![Services Issues](assets/images/Screenshots%20in%20testing/w3c-html-val/services/services-issues.png)
+![Services Issues](assets/images/screenshots-in-testing/w3c-html-val/services/services-issues.png)
 
 **Resolved Validation:**
 The tags were updated to follow a logical order, resulting in a clean validation report.
 
-![Services Resolved](assets/images/Screenshots%20in%20testing/w3c-html-val/services/services-resolved.png)
+![Services Resolved](assets/images/screenshots-in-testingg/w3c-html-val/services/services-resolved.png)
 
 </details>
 
@@ -246,7 +312,7 @@ The tags were updated to follow a logical order, resulting in a clean validation
 **Validation Result:**
 The Fleet page passed all checks with no errors or warnings, confirming full HTML5 compliance for the media-heavy content.
 
-![Fleet Page Validation Pass](assets/images/Screenshots%20in%20testing/w3c-html-val/fleet/fleet-no-issues.png)
+![Fleet Page Validation Pass](assets/images/screenshots-in-testing/w3c-html-val/fleet/fleet-no-issues.png)
 
 </details>
 
@@ -257,12 +323,12 @@ The Fleet page passed all checks with no errors or warnings, confirming full HTM
 **Initial Validation (Found Issues):**
 The validator identified heading level discrepancies and a stray closing tag within the form container.
 
-![Booking Issues](assets/images/Screenshots%20in%20testing/w3c-html-val/booking/booking-issues.png)
+![Booking Issues](assets/images/screenshots-in-testing/w3c-html-val/booking/booking-issues.png)
 
 **Resolved Validation:**
 Structural errors were corrected and the heading hierarchy was realigned, resulting in a successful pass.
 
-![Booking Resolved](assets/images/Screenshots%20in%20testing/w3c-html-val/booking/booking-resolved.png)
+![Booking Resolved](assets/images/screenshots-in-testing/w3c-html-val/booking/booking-resolved.png)
 
 </details>
 
@@ -273,7 +339,7 @@ Structural errors were corrected and the heading hierarchy was realigned, result
 **Validation Result:**
 The Success page passed all checks with no errors or warnings, confirming that the user journey ends on a technically sound and valid document.
 
-![Success Page Validation Pass](assets/images/Screenshots%20in%20testing/w3c-html-val/success/success-no-issues.png)
+![Success Page Validation Pass](assets/images/screenshots-in-testing/w3c-html-val/success/success-no-issues.png)
 
 </details>
 <br>
@@ -287,12 +353,12 @@ The Success page passed all checks with no errors or warnings, confirming that t
 **Initial Validation (Found Issues):**
 The initial check identified several syntax errors and vendor-prefix warnings in the custom branding CSS.
 
-![CSS Issues Found](assets/images/Screenshots%20in%20testing/w3c-css-val/css-issues-found.png)
+![CSS Issues Found](assets/images/screenshots-in-testing/w3c-css-val/css-issues-found.png)
 
 **Resolved Validation:**
 After cleaning up the code and removing redundant styles, the stylesheet passed with no errors.
 
-![CSS Issues Resolved](assets/images/Screenshots%20in%20testing/w3c-css-val/css-issues-resolved.png)
+![CSS Issues Resolved](assets/images/screenshots-in-testing/w3c-css-val/css-issues-resolved.png)
 
 </details>
 <br>
@@ -305,16 +371,16 @@ After cleaning up the code and removing redundant styles, the stylesheet passed 
 <br>
 
 #### **Home Page**
-![Lighthouse Home Page Audit](assets/images/Screenshots%20in%20testing/Lighthouse/lh-index.png)
+![Lighthouse Home Page Audit](assets/images/screenshots-in-testing/Lighthouse/lh-index.png)
 
 #### **Services Page**
-![Lighthouse Services Page Audit](assets/images/Screenshots%20in%20testing/Lighthouse/lh-services.png)
+![Lighthouse Services Page Audit](assets/images/screenshots-in-testing/Lighthouse/lh-services.png)
 
 #### **Fleet Page**
-![Lighthouse Fleet Page Audit](assets/images/Screenshots%20in%20testing/Lighthouse/lh-fleet.png)
+![Lighthouse Fleet Page Audit](assets/images/screenshots-in-testing/Lighthouse/lh-fleet.png)
 
 #### **Booking Page**
-![Lighthouse Booking Page Audit](assets/images/Screenshots%20in%20testing/Lighthouse/lh-booking.png)
+![Lighthouse Booking Page Audit](assets/images/screenshots-in-testing/Lighthouse/lh-booking.png)
 
 </details>
 
