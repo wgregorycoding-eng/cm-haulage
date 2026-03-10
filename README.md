@@ -384,6 +384,33 @@ After cleaning up the code and removing redundant styles, the stylesheet passed 
 
 </details>
 
+## Testing & Bug Report
+
+### Bug Evaluation and Fixes
+During the development process, I performed continuous manual testing. Below are the key issues identified and how they were resolved:
+
+| Bug | Issue | Resolution |
+| :--- | :--- | :--- |
+| **Mobile Menu Overflow** | On mobile devices, the navigation menu was overlapping the 'Request a Quote' button in the header. | Applied a `z-index` hierarchy and adjusted the media query breakpoints to ensure the mobile menu stays in its own layer. |
+| **Form Layout Break** | The 'Same Day Priority' toggle was pushing the 'Collection Date' field out of alignment on small screens. | Wrapped the toggle in a flexbox container with `flex-wrap: wrap` to allow the form to stack vertically on mobile. |
+| **Footer Icon Alignment** | The Facebook and LinkedIn icons were not vertically aligned with the text in the footer. | Used `display: flex` and `align-items: center` on the social-links container for consistent alignment. |
+
+### Known Issues (Unfixed)
+While the site is fully functional for its core purpose, the following minor issues were identified during final testing but remain unfixed to prioritize the project's launch deadline:
+
+* **Date Input Styling (Safari):** On some iOS/Safari versions, the native date picker doesn't inherit the custom CSS styling as cleanly as Chrome or Firefox. 
+    * **Reason:** This is a known browser-specific rendering limitation. The functionality remains 100% intact, but the visual style varies. A custom JS date library would be the future fix.
+* **External Link Hover States:** In very specific high-contrast accessibility modes, the hover state on the social media icons can be subtle.
+    * **Reason:** To maintain branding consistency, I chose a specific teal/navy palette. A future update will include a thicker border-bottom for improved accessibility.
+
+### Manual Testing Verification
+I have verified the site against the User Stories defined earlier in this document:
+
+1. **Browser Compatibility:** Tested on Chrome, Firefox, and Safari to ensure consistent layout.
+2. **Form Integrity:** Verified that the "Request a Quote" form requires all mandatory fields before the browser allows a submission.
+3. **Responsive Design:** Used Chrome DevTools to simulate various devices (Mobile, Tablet, Desktop) to ensure the grid layout scales without breaking.
+4. **Link Check:** All navigation links and social icons have been manually clicked to confirm they point to the correct internal pages or external profiles.
+
 ### 5. Deployment
 The project was deployed to GitHub Pages using the following steps:
 1.  Initialize the local directory as a Git repository.
