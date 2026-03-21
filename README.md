@@ -301,7 +301,7 @@ The validator flagged heading hierarchy issues within the service cards.
 **Resolved Validation:**
 The tags were updated to follow a logical order, resulting in a clean validation report.
 
-![Services Resolved](assets/images/screenshots-in-testingg/w3c-html-val/services/services-resolved.png)
+![Services Resolved](assets/images/screenshots-in-testing/w3c-html-val/services/services-resolved.png)
 
 </details>
 
